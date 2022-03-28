@@ -9,12 +9,11 @@ namespace CRPG
 {
     class Program
     {
-        private static Player _player = new Player();
+        private static Player _player = new Player("Fred the Fearless", 10, 10, 20, 0, 1);
 
         static void Main(string[] args)
         {
             GameEngine.Initialize();
-            _player.Name = "Fred the Fearless";
             _player.MoveTo(World.LocationByID(World.LOCATION_ID_HOME));
 
             while (true)

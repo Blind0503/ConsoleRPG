@@ -12,7 +12,10 @@ namespace CRPG
             Console.WriteLine("Initializing Game Engine Version {0}", Version);
             Console.WriteLine("\n\nWelcome to the World of {0}", World.WorldName);
             Console.WriteLine();
-            World.ListLocations();
+            //World.ListLocations();
+            //World.ListItems();
+            //World.ListQuests();
+            //World.ListMonsters();
         }
     }
 }
